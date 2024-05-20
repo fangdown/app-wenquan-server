@@ -31,4 +31,6 @@ app.use(
 );
 app.use(router.routes());
 
-app.listen(11011); // port 端口
+app.listen(11011, () => {
+  console.log("app start on 11011");
+}); // port 端口
